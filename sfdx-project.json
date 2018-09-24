@@ -3,9 +3,19 @@
         {
             "path": "force-app",
             "default": true
+        },
+        {
+            "path": "force-app/",
+            "package": "SamplePkg",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "43.0"
+    "sourceApiVersion": "43.0",
+    "packageAliases": {
+        "SamplePkg": "0Ho5A000000000zSAA"
+    }
 }
